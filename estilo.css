@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 480px;
+  margin: 24px auto;
+  padding: 0 16px;
+  text-align: center;
+  background: #1d1f24;
+  color: #e8e8e8;
+  transition: background 0.4s;
+}
+
+/* quando a luz acende, o body ganha a classe "acesa" */
+body.acesa {
+  background: #fff7d1;
+  color: #2a2200;
+}
+
+.lampada {
+  font-size: 80px;
+  margin: 16px 0;
+}
+
+button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #f7df1e;
+  color: #1d1f24;
+  font-size: 16px;
+  cursor: pointer;
+}
